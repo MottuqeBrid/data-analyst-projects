@@ -1,3 +1,11 @@
 {
     "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "[python][jupyter]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
